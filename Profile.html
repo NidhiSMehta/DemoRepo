@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+
+    <link rel="stylesheet" href="Css.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- collapsable nav -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" onclick="changeView(this.href)" href="#intro"
+            >Nidhi Mehta</a
+          >
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a onclick="changeView(this.href)" href="#projects" class="btn"
+                ><i class="glyphicon glyphicon-education"></i> Projects
+              </a>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#TechnicalSummary">Technical Summary</a></li>
+            <li><a href="#Qualification">Qualification</a></li>
+            <li><a href="#TechnicalSummary">Technical Summary</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a href="#">Something else here</a></li>
+            <!-- 
+            <li><a href="#">Home</a></li>
+            <li><a href="#TechnicalSummary">Technical Summary</a></li>
+            <li><a href="#">Qualification</a></li>
+            <li><a href="#">Technical Summary</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a href="#">Something else here</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="Home" class="container-fluid">
+      <!-- <div class="row"> -->
+      <div class="container-video">
+        <video
+          src="Videos/V2.mp4"
+          autoplay
+          muted
+          loop
+          width="100%"
+          class="videoplay"
+          id="video"
+        ></video>
+        <div class="info">
+          <div class="img-container">
+            <img class="img center" src="Images/I1.jpeg" alt="avatar image" />
+          </div>
+          <br />
+          <div class="info-detail">
+            <h3>Nidhi Mehta</h3>
+            <p class="detail" style="font-size: 24px">
+              Trainee Engineer at Investis
+            </p>
+            <!-- <br /> -->
+            <hr />
+            <div class="contact-address">
+              <div class="fa fa-phone">&nbsp;+91-9629800907</div>
+              <div class="fa fa-envelope" style="float: right">
+                &nbsp;mehtanidhi1307@gmail.com
+              </div>
+              <hr />
+              <div class="fa fa-map-marker" style="align-items: center">
+                &nbsp;Address
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+
+    <div id="TechnicalSummary" class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1>Technical Summary</h1>
+          <hr />
+          <ul id="list1">
+            <li>
+              Technical skills are the specialized knowledge and expertise
+              required to perform specific tasks and use specific tools and
+              programs in real world situations.
+            </li>
+            <li>
+              Diverse technical skills are required in just about every field
+              and industry, from IT and business administration to health care
+              and education.
+            </li>
+            <li>
+              In fact, many entry-level positions across industries require
+              basic technical skills, such as cloud computing in Google Drive
+              and navigating social media platforms.
+            </li>
+            <li>
+              Technical skills are the specialized knowledge and expertise
+              required to perform specific tasks and use specific tools and
+              programs in real world situations.
+            </li>
+            <li>
+              Diverse technical skills are required in just about every field
+              and industry, from IT and business administration to health care
+              and education.
+            </li>
+            <li>
+              In fact, many entry-level positions across industries require
+              basic technical skills, such as cloud computing in Google Drive
+              and navigating social media platforms.
+            </li>
+            <li>
+              In fact, many entry-level positions across industries require
+              basic technical skills, such as cloud computing in Google Drive
+              and navigating social media platforms.
+            </li>
+            <li>
+              Technical skills are the specialized knowledge and expertise
+              required to perform specific tasks and use specific tools and
+              programs in real world situations.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="Skills" class="container-fluid">
+      <h2>Skills</h2>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-5 skillsbox">
+          <table>
+            <tr>
+              <td>Programming languges :</td>
+              <td>C,C+,Java,Python</td>
+            </tr>
+            <tr>
+              <td>Tools & Technologies:</td>
+              <td>
+                Microsoft .Net (Specifically ASP .Net), ADO .Net, WPF, WCF,
+                Android Mobile Application, SEO Web Tool Kit, Online Traffic
+                Analyzer, Panel Operation Tools, Testing Techniques, Inspection
+                web Techniques, Picomos Photo Creator, Amazing Plug-in
+                generator, CDN Publishing, IONIC, Angular JS etc.
+              </td>
+            </tr>
+            <tr>
+              <td>Databases:</td>
+              <td>Microsoft SQL Server, Microsoft Access.</td>
+            </tr>
+
+            <tr>
+              <td>Email</td>
+              <td>Filters, folders, mail merge, rules.</td>
+            </tr>
+            <tr>
+              <td>Programming languges :</td>
+              <td>C,C+,Java,Python</td>
+            </tr>
+
+            <tr>
+              <td>Databases:</td>
+              <td>Microsoft SQL Server, Microsoft Access.</td>
+            </tr>
+
+            <tr>
+              <td>Email</td>
+              <td>Filters, folders, mail merge, rules.</td>
+            </tr>
+            <tr>
+              <td>Databases:</td>
+              <td>Microsoft SQL Server, Microsoft Access.</td>
+            </tr>
+
+            <tr>
+              <td>Email</td>
+              <td>Filters, folders, mail merge, rules.</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
